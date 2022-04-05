@@ -6,9 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
-  name: Venkatappa Changes
+
 steps:
 - task: NodeTool@0
   inputs:
